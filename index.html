@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CAROUSEL</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="carousel" id="carousel">
+    <div id="slides-container" class="slides">
+      <div class="slide active" style="background-image:url('img/1.jpg'); background-size: cover;"></div>
+      <div class="slide" style="background-image:url('img/2.jpg'); background-size: cover;"></div>
+      <div class="slide" style="background-image:url('img/3.jpg'); background-size: cover;"></div>
+      <div class="slide" style="background-image:url('img/4.jpg'); background-size: cover;"></div>
+      <div class="slide" style="background-image:url('img/5.jpg'); background-size: cover;"></div>
+    </div>
+    <div class="controls" id="controls-container">
+      <span id="prev-btn" class="control control-prev">PREV</span>
+      <span id="pause-btn" class="control control-pause">PAUSE</span>
+      <span id="next-btn" class="control control-next">NEXT</span>
+    </div>
+    <div class="indicators" id="indicators-container">
+      <div class="indicator active" data-slide-to="0"></div>
+      <div class="indicator" data-slide-to="1"></div>
+      <div class="indicator" data-slide-to="2"></div>
+      <div class="indicator" data-slide-to="3"></div>
+      <div class="indicator" data-slide-to="4"></div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
